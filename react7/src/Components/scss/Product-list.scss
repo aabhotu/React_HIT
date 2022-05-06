@@ -1,0 +1,19 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 50px;
+    background-color: #20232a;
+    color: #fff;
+    &__logo{
+        color: #61dafb;
+        font-weight: 900;
+    }
+    &__menu{
+        display: flex;
+    }
+    &__input{
+
+    }
+}
+
+// sass, material UI, ant design, tailwind css
