@@ -1,0 +1,27 @@
+.add-todo{
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+    &_input{
+        flex:1;
+        // border-color: #ccc;
+        border: 1px solid #3a7bd5;
+        padding: 5px 20px;
+        input{
+            width: 100%;
+        }
+    }
+    &_button{
+        padding: 10px;
+        cursor: pointer;
+        background-color: #3a7bd5;
+        transition:all 0.5s;
+        i{
+            color: #fff;
+        }
+
+        &:hover{
+            background-color: #1c4d92;
+        }
+    }
+}

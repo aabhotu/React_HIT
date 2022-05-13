@@ -1,0 +1,20 @@
+
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    // height: 100vh;
+    
+.modal-todo{
+    background-color: #fff;
+    width: 600px;
+    min-height: 500px;
+     padding: 20px;
+    
+    &_heading{
+        font-size: 30px;
+        text-align: center;
+        margin: 20px 0;
+        font-weight: 800;
+    }
+}
+    
