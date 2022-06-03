@@ -8,13 +8,33 @@
     background-color: #fff;
     width: 600px;
     min-height: 500px;
-     padding: 20px;
+    padding: 20px;
+    border-radius:10px;
     
     &_heading{
         font-size: 30px;
         text-align: center;
         margin: 20px 0;
         font-weight: 800;
+    }
+    &_list{
+        padding-top:20px;
+        height: 500px;
+        overflow: auto;
+    }
+    &-btn{
+        display: flex;
+        justify-content:space-between;
+        &-checked{
+            background-color: lightblue;
+            padding: 3px 7px;
+            border-radius: 7px;
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-size: 16px;
+            font-weight: 500;
+            color: darkblue;
+        }
     }
 }
     
